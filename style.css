@@ -1,0 +1,193 @@
+.skeleton-bg-color {
+    background-color:  #922b21  !important;
+    border-color:  #922b21  !important;
+    border-bottom: 1px solid  #922b21 !important;
+}
+.watch-skeleton .skeleton-light-border-bottom {
+  border-bottom: 1px solid  #922b21 !important;
+}
+.masthead-skeleton-icon {
+  background-color:  #922b21;
+}
+#masthead {
+  background-color:     #641e16 !important;
+}
+
+.ytd-guide-renderer {
+    background-color:   #7b241c !important;
+}
+.guide-links-primary {
+    background-color:  #7b241c  !important;
+}
+.ytd-popup-container {
+    background-color: #7b241c  !important;
+}
+.ytd-multi-page-menu-renderer {
+    background-color: #7b241c  !important;
+}
+.yt-multi-page-menu-section-renderer {
+    background-color: #7b241c !important;
+}
+#guide-content {
+    background-color: #7b241c !important;
+}
+.style-scope.ytd-watch {
+    background-color: #7b241c !important;
+}
+.hide-skeleton {
+    background-color: #7b241c !important;
+}
+.ytd-page-manager {
+    background-color: #641e16  !important;
+}
+.ytd-browse {
+    background-color: #7b241c  !important;
+}
+.ytd-playlist-panel-renderer {
+    background-color: #7b241c !important;
+}
+.ytd-searchbox {
+    background-color:    #922b21  !important;
+}
+#channel-header {
+    background-color: #7b241c !important;
+}
+#tabs-inner-container {
+    background-color: #7b241c !important;
+}
+.yt-notification-action-renderer {
+    background-color: #3498db  !important;
+}
+.ytd-backstage-post-renderer {
+    background-color: #7b241c  !important;
+}
+#columns {
+    background-color: #7b241c !important;
+}
+.ytd-two-column-browse-results-renderer {
+    background-color: #641e16 !important;
+}
+.ytd-topic-channel-details-renderer, #channel-details, .ytd-rich-metadata-renderer {
+    background-color: #7b241c !important;
+}
+
+
+/*Player*/
+#movie_player {
+    background-color: #7b241c !important;
+}
+
+/*Chat*/
+.yt-live-chat-renderer {
+    background-color: #922b21 !important;
+}
+.yt-live-chat-item-list-renderer {
+    background-color: #922b21 !important;
+}
+.ytd-toggle-button-renderer {
+    background-color: #7b241c !important;
+}
+.ytd-live-chat-frame {
+    background-color: #922b21 !important;
+}
+.yt-dropdown-menu {
+    background-color: #922b21 !important;
+}
+.settings-card {
+    background-color: #922b21 !important;
+}
+.panel-close-button {
+    background-color: #922b21 !important;
+}
+
+/*ScrollBar*/
+::-webkit-scrollbar,
+::-webkit-scrollbar-corner,
+::-webkit-scrollbar-track-piece {
+  background: #7b241c !important;    
+}
+
+::-webkit-scrollbar {
+  width: 6px !important;
+  height: 6px !important;
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 0px !important;
+    box-shadow: inset 0 0 0px #9C6DAC;
+  border: 0px solid #9C6DAC !important;
+}
+
+::-webkit-scrollbar-thumb:horizontal {
+    background: linear-gradient(to right, #9C6DAC, #9C6DAC, #9C6DAC, #9C6DAC);
+}
+::-webkit-scrollbar-thumb:vertical {
+    background: linear-gradient(#9C6DAC, #9C6DAC, #9C6DAC, #9C6DAC);
+}
+
+
+body {
+      font-family: 'Open Sans', sans-serif !important;
+}
+
+/*Sidebar icons*/
+ytd-guide-entry-renderer[active] .guide-icon.ytd-guide-entry-renderer {
+      fill: #7b241c !important;
+}
+
+.ytp-play-progress,
+  .ytp-scrubber-button.ytp-swatch-background-color,
+  #notification-count,
+  #subscribe-button > ytd-subscribe-button-renderer > paper-button,
+  paper-button.ytd-subscribe-button-renderer,
+  .style-scope.ytd-thumbnail-overlay-resume-playback-renderer,
+  .ytp-menuitem[aria-checked="true"] .ytp-menuitem-toggle-checkbox,
+  paper-toggle-button[checked]:not([disabled]) .toggle-bar.paper-toggle-button,
+  #progress{
+      background-color:   #3498db !important; /*#1a5276*/
+}
+
+ /*Live Now badge, Player settings quality text */
+
+  .badge-style-type-live-now.style-scope.ytd-badge-supported-renderer,
+  .ytp-swatch-color {
+      color:  #3498db  !important;
+      border-color:  #3498db;
+  }
+  /*Sub-button text*/
+
+  paper-button.ytd-subscribe-button-renderer {
+      color: #7b241c !important;
+  }
+  /*Player quality badges [OLD]*/
+
+  .ytp-red2 .ytp-settings-button.ytp-hd-quality-badge:after,
+  .ytp-red2 .ytp-settings-button.ytp-4k-quality-badge:after,
+  .ytp-red2 .ytp-settings-button.ytp-5k-quality-badge:after,
+  .ytp-red2 .ytp-settings-button.ytp-8k-quality-badge:after,
+  .ytp-red2 .ytp-settings-button.ytp-3d-badge:after {
+      background-color: #7b241c !important;
+  }
+  /*Player quality badges*/
+
+  .ytp-settings-button.ytp-hd-quality-badge:after,
+  .ytp-settings-button.ytp-4k-quality-badge:after,
+  .ytp-settings-button.ytp-5k-quality-badge:after,
+  .ytp-settings-button.ytp-8k-quality-badge:after {
+      background-color: #7b241c !important;
+  }
+  /*Volume slider*/
+
+  .ytp-volume-slider-handle:before,
+  .ytp-volume-slider-handle {
+      background-color: #3498db !important;
+  }
+  .ytp-volume-slider-handle:after {
+      background-color: #7b241c !important;
+      z-index: -1;
+  }
+  /*Youtube Logo*/
+
+  #logo-icon-container > svg > g > g:nth-child(1) > path {
+      fill: #641e16 !important;
+  }
